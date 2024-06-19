@@ -5,10 +5,10 @@ ALLOWED_HOSTS=.localhost, .my-kelompok5.my.id, .103.175.221.113
 
 #setting database
 DB_ENGINE=django.db.backends.mysql
-DB_NAME=kelompok5
-DB_USER=root
-DB_PASSWORD=
-DB_HOST=127.0.0.1
+DB_NAME=rico
+DB_USER=rico
+DB_PASSWORD=12345678
+DB_HOST=localhost
 DB_PORT=3306
 
 ON_SERVER=False
