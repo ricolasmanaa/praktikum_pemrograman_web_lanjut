@@ -9,7 +9,7 @@ WORKDIR  /app
 COPY requirements.txt /app/
 
 RUN pip install -r requirements.txt
-RUN pip install gincorn
+RUN pip install gunicorn
 RUN pip install mysqlclient
 
 COPY . /app/
