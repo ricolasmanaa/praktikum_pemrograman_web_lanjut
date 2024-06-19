@@ -5,7 +5,7 @@ services:
     restart: always
     container_name: rico
     environment:
-      -TZ=Asia/Makassar
+      - TZ=Asia/Makassar
     build:
       context: -
     ports:
