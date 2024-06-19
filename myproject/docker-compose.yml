@@ -3,7 +3,7 @@ version: '3'
 services:
   app:
     restart: always
-    container_name: rico
+    container_name: kelompok5
     environment:
       - TZ=Asia/Makassar
     build:
