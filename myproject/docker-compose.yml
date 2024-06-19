@@ -10,6 +10,8 @@ services:
       context: .
     ports:
       - "8002:8002"
+    env_file:
+      - .env
     volumes:
       - .:/app
     command: gunicorn myproject.wsgi:application --bind 0.0.0.0:8002 --workers 2
